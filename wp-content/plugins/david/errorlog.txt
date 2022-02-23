@@ -1,0 +1,32 @@
+* Hostname was found in DNS cache
+*   Trying 193.39.165.33...
+* Connected to casajeux.agartaworld.com (193.39.165.33) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* Server certificate:
+* 	 subject: CN=casajeux.agartaworld.com
+* 	 start date: 2022-01-18 22:13:57 GMT
+* 	 expire date: 2022-04-18 22:13:56 GMT
+* 	 issuer: C=US; O=Let's Encrypt; CN=R3
+* 	 SSL certificate verify ok.
+> GET /?requete_david=1 HTTP/1.1
+Host: casajeux.agartaworld.com
+Accept: */*
+
+< HTTP/1.1 200 OK
+< Date: Thu, 27 Jan 2022 15:02:16 GMT
+* Server Apache/2 is not blacklisted
+< Server: Apache/2
+< Link: <https://casajeux.agartaworld.com/wp-json/>; rel="https://api.w.org/", <https://casajeux.agartaworld.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json", <https://casajeux.agartaworld.com/>; rel=shortlink
+< X-TEC-API-VERSION: v1
+< X-TEC-API-ROOT: https://casajeux.agartaworld.com/wp-json/tribe/events/v1/
+< X-TEC-API-ORIGIN: https://casajeux.agartaworld.com
+< Upgrade: h2,h2c
+< Connection: Upgrade
+< Vary: Accept-Encoding,User-Agent
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=UTF-8
+< 
+* Connection #0 to host casajeux.agartaworld.com left intact
